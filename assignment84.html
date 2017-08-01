@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+
+    <title>change hyperlink</title>
+
+    <meta http-equiv = "Content-Type" content = "text/html; charset = utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+
+    <link rel = "stylesheet" type = "text/css" href = "#" />
+    <!--Add your .css file-->
+
+
+
+    <style type="text/css">
+
+    </style>
+    <!--  Internal css link -->
+
+    <script src = "http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <script type = "text/javascript" src = "#"></script>
+
+    <!--Add Your External jQuery Plugin-->
+
+
+
+    <script type = "text/javascript" lang="javascript">
+
+
+    </script>
+    <!--  Internal jquery/javascript link-->
+
+</head>
+
+
+<body>
+
+<a href="www.acadgild.com" id='Acadgild'>jQuery </a>
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+$(document).ready(function()
+{
+                 //To change the hyperlink
+    
+$('a:first').attr({
+    href:'http://www.google.com',
+});
+    //to change the text
+    $('a:first').text('new text');
+});
+</script>
+
+
+</body>
+
+</html>
